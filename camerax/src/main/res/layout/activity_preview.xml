@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50mm">
+
+        <ImageView
+            android:id="@+id/left_icon"
+            android:layout_width="19mm"
+            android:layout_height="19mm"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16mm"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title_finishTv"
+            android:layout_width="60mm"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="18mm"
+            android:text="预览" />
+
+
+
+        <TextView
+            android:id="@+id/titleRightTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16mm"
+            android:textColor="@color/black"
+            android:textSize="16mm"
+            android:text="确认选择"/>
+
+        <ImageView
+            android:id="@+id/right_icon"
+            android:layout_width="22mm"
+            android:layout_height="22mm"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16mm" />
+        <TextView
+            android:id="@+id/title_rightTv"
+            android:layout_width="60mm"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</LinearLayout>

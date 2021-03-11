@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:textSize="16sp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:textSize="16sp"
+        android:text="Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="16sp"
+        android:text="我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff00ff"
+        android:textSize="16sp"
+        android:text="我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000ff"
+        android:textSize="16sp"
+        android:lineSpacingExtra="5dp"
+        android:text="我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字我是汉字" />
+
+</LinearLayout>

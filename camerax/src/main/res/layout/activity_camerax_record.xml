@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/view_finder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Chronometer
+        android:id="@+id/textChrono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10mm"
+        android:text="00:00"
+        android:textColor="@android:color/white"
+        android:textSize="20mm"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/camera_switch_button"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="100mm"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/ivPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/camera_button" />
+
+        <ImageView
+            android:id="@+id/ivChange"
+            android:layout_width="50mm"
+            android:layout_height="50mm"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10mm"
+            android:src="@mipmap/swap_button" />
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="50mm"
+            android:layout_height="50mm"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10mm"
+            android:src="@mipmap/close_button" />
+
+        <TextView
+            android:id="@+id/ivFinsh"
+            android:layout_width="50mm"
+            android:layout_height="50mm"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20mm"
+            android:layout_toRightOf="@id/ivClose"
+            android:background="@drawable/shap_finsh"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
