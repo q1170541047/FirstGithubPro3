@@ -15,10 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_margin="10mm"
+        android:layout_margin="10dp"
         android:text="00:00"
         android:textColor="@android:color/white"
-        android:textSize="20mm"
+        android:textSize="20dp"
         android:visibility="gone" />
 
     <ImageButton
@@ -35,39 +35,39 @@
     <RelativeLayout
         android:id="@+id/rlBottom"
         android:layout_width="match_parent"
-        android:layout_height="100mm"
+        android:layout_height="100dp"
         android:layout_alignParentBottom="true">
 
         <ImageView
             android:id="@+id/ivPhoto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_centerInParent="true"
             android:src="@mipmap/camera_button" />
 
         <ImageView
             android:id="@+id/ivChange"
-            android:layout_width="50mm"
-            android:layout_height="50mm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="10mm"
+            android:layout_marginRight="10dp"
             android:src="@mipmap/swap_button" />
 
         <ImageView
             android:id="@+id/ivClose"
-            android:layout_width="50mm"
-            android:layout_height="50mm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10mm"
+            android:layout_marginLeft="10dp"
             android:src="@mipmap/close_button" />
 
         <TextView
             android:id="@+id/ivFinsh"
-            android:layout_width="50mm"
-            android:layout_height="50mm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="20mm"
+            android:layout_marginLeft="20dp"
             android:layout_toRightOf="@id/ivClose"
             android:background="@drawable/shap_finsh"
             android:gravity="center"

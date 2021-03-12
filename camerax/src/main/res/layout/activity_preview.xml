@@ -4,22 +4,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50mm">
+        android:layout_height="50dp">
 
         <ImageView
             android:id="@+id/left_icon"
-            android:layout_width="19mm"
-            android:layout_height="19mm"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="16mm"
+            android:layout_marginLeft="16dp"
             android:src="@drawable/back" />
 
         <TextView
             android:id="@+id/title_finishTv"
-            android:layout_width="60mm"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true" />
 
@@ -29,10 +28,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:text="预览"
             android:textColor="@color/black"
-            android:textSize="18mm"
-            android:text="预览" />
-
+            android:textSize="18dp" />
 
 
         <TextView
@@ -41,21 +39,22 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="16mm"
+            android:layout_marginRight="16dp"
+            android:text="确认选择"
             android:textColor="@color/black"
-            android:textSize="16mm"
-            android:text="确认选择"/>
+            android:textSize="16dp" />
 
         <ImageView
             android:id="@+id/right_icon"
-            android:layout_width="22mm"
-            android:layout_height="22mm"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="16mm" />
+            android:layout_marginRight="16dp" />
+
         <TextView
             android:id="@+id/title_rightTv"
-            android:layout_width="60mm"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true" />
     </RelativeLayout>

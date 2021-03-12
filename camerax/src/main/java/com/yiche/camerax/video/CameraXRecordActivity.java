@@ -146,6 +146,7 @@ public class CameraXRecordActivity extends AppCompatActivity {
         ivChange = findViewById(R.id.ivChange);
         ivClose = findViewById(R.id.ivClose);
         ivFinsh = findViewById(R.id.ivFinsh);
+        ivFinsh.setVisibility(View.GONE);
         ivPhoto = findViewById(R.id.ivPhoto);
         textChrono = findViewById(R.id.textChrono);
         ivPhoto.setOnClickListener(new View.OnClickListener() {
