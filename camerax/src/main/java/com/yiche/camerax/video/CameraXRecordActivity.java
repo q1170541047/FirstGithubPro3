@@ -143,6 +143,7 @@ public class CameraXRecordActivity extends AppCompatActivity {
             setUpCamera();
         }
         mPreviewView = findViewById(R.id.view_finder);
+
         ivChange = findViewById(R.id.ivChange);
         ivClose = findViewById(R.id.ivClose);
         ivFinsh = findViewById(R.id.ivFinsh);
